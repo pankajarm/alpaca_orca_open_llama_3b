@@ -80,7 +80,7 @@ def generate_text(system, instruction, input=None):
 # same prompt as provided by Orca Research Paper
 system = 'You are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.'
 instruction = 'Use the given data to calculate the median.'
-input = '[7, 3, 8, 2, 10]'
+input = '[5,2,3,4,1]'
 generate_text(system, instruction, input)
 
 ```
